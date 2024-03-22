@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#83C3CA"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:text="@string/d_store"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#C2185B"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teks1"
+            android:hint="@string/masukkan_nama_pembeli"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvTipepelanggan"
+        android:text="@string/pilih_tipe_pelanggan"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#C2185B"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/BiasaRadioButton"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="@string/biasa"
+            android:textColor="#C2185B"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/silverRadioButton"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="@string/perak"
+            android:textColor="#C2185B"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/goldRadioButton"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="@string/emas"
+            android:textColor="#C2185B"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teks2"
+            android:hint="@string/masukkan_kode_barang" />
+    </com.google.android.material.textfield.TextInputLayout>'
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teks3"
+            android:hint="@string/jumlah_barang" />
+    </com.google.android.material.textfield.TextInputLayout>'
+
+    <Button
+        android:id="@+id/btnproses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proses"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C2185B" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaskDay5</string>
+    <string name="proses">Process</string>
+    <string name="d_store">°❀⋆.D\'STORE.⋆❀°</string>
+    <string name="biasa">Normal</string>
+    <string name="perak">Silver</string>
+    <string name="emas">Gold</string>
+    <string name="jumlah_barang">the amount of goods</string>
+    <string name="masukkan_nama_pembeli">Enter Buyers Name</string>
+    <string name="selamat_datang_nama_pembeli">Welcome Buyer Name</string>
+    <string name="tipe_pelanggan">Customer Type:</string>
+    <string name="transaksi_hari_ini">Todays Transactions</string>
+    <string name="detail_barang">Item Details:</string>
+    <string name="nama_barang">Name of goods:</string>
+    <string name="harga">Price</string>
+    <string name="total_harga">Total price:</string>
+    <string name="diskon_harga">Price discount:</string>
+    <string name="diskon_member">Member discount:</string>
+    <string name="jumlah_bayar">Payment Amount:</string>
+    <string name="terima_kasih_sudah_berbelanja_disini">♡⊹˚₊THANK YOU FOR SHOPPING HERE ₊˚⊹♡</string>
+    <string name="bagikan">Share</string>
+    <string name="kode_barang">Item code:</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">5日目の課題</string>
+    <string name="proses">プロセス</string>
+    <string name="d_store">°❀⋆.ディーストア.⋆❀°</string>
+    <string name="biasa">普通</string>
+    <string name="perak">銀</string>
+    <string name="emas">金</string>
+    <string name="jumlah_barang">商品の量</string>
+    <string name="masukkan_nama_pembeli">購入者の名前を入力してください</string>
+    <string name="selamat_datang_nama_pembeli">ようこそバイヤー名</string>
+    <string name="tipe_pelanggan">顧客タイプ：</string>
+    <string name="transaksi_hari_ini">本日の取引</string>
+    <string name="detail_barang">商品詳細:</string>
+    <string name="nama_barang">商品名：</string>
+    <string name="harga">価格：</string>
+    <string name="total_harga">合計金額：</string>
+    <string name="diskon_harga">価格割引:</string>
+    <string name="diskon_member">会員割引：</string>
+    <string name="jumlah_bayar">支払金額：</string>
+    <string name="terima_kasih_sudah_berbelanja_disini">♡⊹˚₊ ここでお買い物していただきありがとうございます ₊˚⊹♡</string>
+    <string name="bagikan">共有</string>
+    <string name="kode_barang">アイテムコード：</string>
+
+</resources>
