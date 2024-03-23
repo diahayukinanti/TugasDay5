@@ -13,7 +13,7 @@
         android:id="@+id/tvnamapembeli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/selamat_datang_nama_pembeli"
+        android:text="@string/selamat_datang"
         android:textColor="#C2185B"
         android:layout_gravity="center"
         android:textSize="18sp"

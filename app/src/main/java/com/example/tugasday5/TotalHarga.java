@@ -50,8 +50,8 @@ public class TotalHarga extends AppCompatActivity {
             int unit = extras.getInt("jumlah");
 
             // Menampilkan data customer dan membership type
-            tvnamapembeli.setText(namapembeli);
-            tvtipepelanggan.setText("Tipe Pelanggan: " + tipepelanggan);
+            tvnamapembeli.setText(getString(R.string.selamat_datang ) + namapembeli);
+            tvtipepelanggan.setText(getString(R.string.tipe_pelanggan) + tipepelanggan);
 
             // Menghitung total harga dan diskon
             int selectedItemIndex = findItemIndex(itemCode);
@@ -61,14 +61,14 @@ public class TotalHarga extends AppCompatActivity {
             double totalPayment = totalPrice;
 
             // Menampilkan data barang dan transaksi
-            tvItemCode.setText("Kode barang: " + itemCode);
-            tvItemName.setText("Nama Barang: " + itemNames[selectedItemIndex]);
-            tvItemPrice.setText("Harga: Rp " + formatPrice(itemPrice));
-            tvTotalPrice.setText("Total Harga: Rp " + formatPrice(totalPrice));
-            tvDiscount.setText("Discount harga: Rp " + formatPrice(discountAmount));
-            tvMemberDiscount.setText("Discount member: Rp " + formatPrice(discountAmount));
-            tvTotalPayment.setText("Jumlah Bayar: Rp " + formatPrice(totalPayment));
-            tvTerimakasih.setText("♡⊹˚₊TERIMA KASIH SUDAH BERBELANJA DISINI ₊˚⊹♡");
+            tvItemCode.setText(getString(R.string.kode_barang) + itemCode);
+            tvItemName.setText(getString(R.string.nama_barang) + itemNames[selectedItemIndex]);
+            tvItemPrice.setText(getString(R.string.harga) + formatPrice(itemPrice));
+            tvTotalPrice.setText(getString(R.string.total_harga) + formatPrice(totalPrice));
+            tvDiscount.setText(getString(R.string.diskon_harga) + formatPrice(discountAmount));
+            tvMemberDiscount.setText(getString(R.string.diskon_member) + formatPrice(discountAmount));
+            tvTotalPayment.setText(getString(R.string.jumlah_bayar) + formatPrice(totalPayment));
+            tvTerimakasih.setText(getString(R.string.terima_kasih_sudah_berbelanja_disini));
 
             // Set onClickListener untuk tombol Share
             Button btnShare = findViewById(R.id.btnshare);
@@ -98,9 +98,9 @@ public class TotalHarga extends AppCompatActivity {
         // Menerapkan diskon berdasarkan tipe member
         if (membershipType.equals("Biasa")) {
             discountAmount = price * discountBiasa;
-        } else if (membershipType.equals("Silver")) {
+        } else if (membershipType.equals("Perak")) {
             discountAmount = price * discountSilver;
-        } else if (membershipType.equals("Gold")) {
+        } else if (membershipType.equals("Emas")) {
             discountAmount = price * discountGold;
         }
 

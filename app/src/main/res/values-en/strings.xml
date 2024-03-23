@@ -8,8 +8,6 @@
     <string name="emas">Gold</string>
     <string name="jumlah_barang">the amount of goods</string>
     <string name="masukkan_nama_pembeli">Enter Buyers Name</string>
-    <string name="selamat_datang_nama_pembeli">Welcome Buyer Name</string>
-    <string name="tipe_pelanggan">Customer Type:</string>
     <string name="transaksi_hari_ini">Todays Transactions</string>
     <string name="detail_barang">Item Details:</string>
     <string name="nama_barang">Name of goods:</string>
@@ -20,5 +18,12 @@
     <string name="jumlah_bayar">Payment Amount:</string>
     <string name="terima_kasih_sudah_berbelanja_disini">♡⊹˚₊THANK YOU FOR SHOPPING HERE ₊˚⊹♡</string>
     <string name="bagikan">Share</string>
-    <string name="kode_barang">Item code:</string>
+    <string name="masukkan_kode_barang">Enter the item code</string>
+    <string name="pilih_tipe_pelanggan">Select customer type</string>
+
+    <string name="tipe_pelanggan">Customer Type:</string>
+    <string name="kode_barang">Item Code</string>
+    <string name="selamat_datang">Welcome </string>
+
+
 </resources>

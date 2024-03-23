@@ -7,8 +7,6 @@
     <string name="emas">Emas</string>
     <string name="jumlah_barang">Jumlah Barang</string>
     <string name="masukkan_nama_pembeli">Masukkan Nama Pembeli</string>
-    <string name="selamat_datang_nama_pembeli">Selamat Datang Nama Pembeli</string>
-    <string name="tipe_pelanggan">Tipe Pelanggan:</string>
     <string name="transaksi_hari_ini">Transaksi Hari Ini</string>
     <string name="detail_barang">Detail Barang:</string>
     <string name="nama_barang">Nama Barang:</string>
@@ -19,7 +17,12 @@
     <string name="jumlah_bayar">Jumlah Bayar:</string>
     <string name="terima_kasih_sudah_berbelanja_disini">♡⊹˚₊TERIMA KASIH SUDAH BERBELANJA DISINI ₊˚⊹♡</string>
     <string name="bagikan">Bagikan</string>
-    <string name="kode_barang">Kode barang:</string>
     <string name="masukkan_kode_barang">Masukkan kode barang</string>
     <string name="pilih_tipe_pelanggan">Pilih tipe pelanggan</string>
+
+    <string name="tipe_pelanggan">Tipe Pelanggan</string>
+    <string name="kode_barang">Kode Barang</string>
+    <string name="selamat_datang">Selamat Datang </string>
+
+
 </resources>
